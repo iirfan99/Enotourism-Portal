@@ -1,0 +1,133 @@
+  .submit {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    color: aqua;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+  background-color: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth{
+
+  width: 600px;
+  height: 600px;
+  border: 2px solid rgb(0, 0, 0);
+  background: #49aeb1  ;
+  margin: auto;
+  padding: 100px 0px;
+  border: 7px solid #060606;
+  margin-bottom: 5px;
+  
+}
+
+.reg1{
+  background-color: #f5fffb;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 9px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.auth-form-container {
+  padding: 1rem;
+
+  margin: 60px auto 0;
+  border-width: 0.1cm;
+ border-radius: 70px, 0, 70px, 0;
+  border-top-left-radius: 3cm;
+  align-content: center;
+  margin: 0.5rem;  
+}
+
+@media screen and (min-width: 10px) {
+  .auth-form-container {
+    padding: 5rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  
+  text-align: center;
+  padding: 0.25rem 0;
+}
+
+input {
+
+  align-self: center;
+  size-adjust: 3;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-color: #000000;
+ 
+  border-radius: 10px;
+  color: #000000;
+  height: fit-content;
+  height: small;
+  width: 20%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(8, 8, 8);
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+
+  
+  
+}
+
+button {
+  border: rgb(3, 3, 3);
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5000009px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.link-btn {
+  background: none;
+  color: rgb(245, 32, 32);
+  text-decoration: underline;
+}
+
+h2{
+ text-align: center; 
+}
+
+form{
+  text-align: center; 
+}
+

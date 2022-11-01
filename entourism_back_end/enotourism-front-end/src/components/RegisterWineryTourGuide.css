@@ -1,0 +1,25 @@
+.auth34{
+
+    width: 600px;
+    height: 600px;
+    border: 2px solid rgb(0, 0, 0);
+    background: #49aeb1  ;
+    margin: auto;
+    padding: 100px 0px;
+    border: 7px solid #060606;
+    margin-bottom: 5px;
+    
+  }
+  
+  .reg6{
+    background-color: #f5fffb;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 9px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.9;
+  }
+  
+  
